@@ -4,7 +4,7 @@ var produccion = true; //cambiar valor dependiendo el entorno
 
 if (produccion) {
     module.exports = {
-        port: process.env.PORT || 3700,
+        port: process.env.PORT || 7001,
         db:'mongodb+srv://christhoper:honduras100@cluster0-bh6yp.mongodb.net/artcode?retryWrites=true&w=majority',
         SECRET_TOKEN: 'miclavedetokenxd'
     }
